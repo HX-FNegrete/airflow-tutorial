@@ -26,17 +26,7 @@
 
 <pre><code>pip install psutil</code></pre>
 
-  8.  Después de instalar Airflow, es recomendable inicializar la base de datos para que Airflow pueda almacenar información sobre tus flujos de trabajo, programaciones, y ejecuciones. Inicializa la base de datos de Airflow:
 
-<pre><code>airflow db init</code></pre>
-
-  9.  Inicia el servidor de Airflow:
-
-<pre><code>airflow webserver -p 8080</code></pre>
-
-  10. Abre tu navegador web y dirígete a la siguiente dirección:
-
-<pre><code>http://localhost:8080</code></pre>
 
 
 
