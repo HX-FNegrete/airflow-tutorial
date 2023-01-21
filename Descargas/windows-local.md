@@ -26,7 +26,7 @@
 
 <pre><code>pip install psutil</code></pre>
 
-  8.  Inicializa la base de datos de Airflow:
+  8.  Después de instalar Airflow, es recomendable inicializar la base de datos para que Airflow pueda almacenar información sobre tus flujos de trabajo, programaciones, y ejecuciones. Inicializa la base de datos de Airflow:
 
 <pre><code>airflow db init</code></pre>
 
