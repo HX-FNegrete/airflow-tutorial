@@ -14,3 +14,5 @@
   
  <pre><code>virtualenv c:\airflow_env</code></pre>
  
+  5.  Activa tu entorno virtual ejecutando el siguiente comando:
+
