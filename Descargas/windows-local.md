@@ -12,7 +12,31 @@
 
   4.  Crea una carpeta para alojar tu entorno virtual de Airflow. Por ejemplo, si quieres crear una carpeta llamada "airflow_env" en la unidad C, ejecutarías el siguiente comando:
   
- <pre><code>virtualenv c:\airflow_env</code></pre>
+<pre><code>virtualenv c:\airflow_env</code></pre>
  
   5.  Activa tu entorno virtual ejecutando el siguiente comando:
+
+<pre><code>c:\airflow_env\Scripts\activate.bat</code></pre>
+
+  6.  Utiliza pip para instalar Airflow:
+
+<pre><code>pip install apache-airflow</code></pre>
+
+  7.  Puede ser que también necesites instalar esta otra librería, en caso de que devuelva un error la consola:
+
+<pre><code>pip install psutil</code></pre>
+
+  8.  Inicializa la base de datos de Airflow:
+
+<pre><code>airflow initdb</code></pre>
+
+  9.  Inicia el servidor de Airflow:
+
+<pre><code>airflow webserver -p 8080</code></pre>
+
+  10. Abre tu navegador web y dirígete a la siguiente dirección:
+
+<pre><code>http://localhost:8080</code></pre>
+
+
 
