@@ -28,7 +28,7 @@
 
   8.  Inicializa la base de datos de Airflow:
 
-<pre><code>airflow initdb</code></pre>
+<pre><code>airflow db init</code></pre>
 
   9.  Inicia el servidor de Airflow:
 
